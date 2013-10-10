@@ -1,5 +1,23 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  ul(data-role="listview", data-inset="true")
+    li
+      a#cafeteria 학생식당
+    li
+      a#dormitory 창의인재원식당
+    li
+      a#foodcourt 푸드코트
+    li
+      a#incubator 창업보육센터
+    li
+      a#faculty 교직원식당
+    #loading-screen
+    //img#loading(src="/images/365.gif")
+
+block popup
+  #popup
+    div#popup-header(data-role="header", data-theme="b")
+      h1#popup-header-text
+    div.ui-content(data-role="content", data-theme="d")
+      div#popup-content
