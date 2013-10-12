@@ -16,8 +16,3 @@ Dependency
 Blog
 -----
 * http://blog.hannjs.com
-
-License
----------
-* [MIT License](http://www.tldrlegal.com/license/mit-license) 출처만 적어주십사하는 마음에서 :D
-
